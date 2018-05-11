@@ -1,0 +1,49 @@
+body {		
+    text-align: center;
+    background-color: #F5F5F5;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+ 
+h2 {
+    padding-bottom: 25px;
+}  
+
+div a:hover {
+    color: blue;
+}
+
+.info-box {
+    padding-bottom: 7px;     
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;   
+}
+
+.grid-item-left {
+    text-align: right; 
+    margin-right: 6px;   
+    padding-left: 30px;
+}
+
+.grid-item-right {
+    text-align: left;    
+}
+
+#content {    
+    width: 400px; 
+    height: 250px;
+	padding: 10px;
+	margin: auto; 		
+    }
+
+#main-box {
+    margin-top: 300px
+}
+
+#footer {
+    font-size: 11px;
+    display: block;
+}
+    

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+       <title>Weather Page</title>
+       <meta charset="utf-8">
+       <link rel="stylesheet" href="weather.css">       
+       <script></script>       
+    </head>
+<body>
+
+
+<div id="main-box"> 
+
+    <h2 id="title">Weather App</h2> 
+
+    <div id="content"> 
+        <div class="text-container">
+            <div class="info-box" id="location"></div>
+            <div class="container">
+                <div class="info-box grid-item-left" id="temperature"></div>
+                <a id="temp-unit" class="grid-item-right">°C</a>
+            </div>
+        </div>            
+        <figure>
+                <canvas id="icon" width="128" height="128"></canvas>
+        </figure>  
+    </div>
+
+</div>
+
+<footer id="footer">Weather icons provided by <a href="http://darkskyapp.github.io/skycons/" 
+    target="_blank">Skycons</a> </a></footer>
+
+</body>
+<script src="weather_icons.js"></script>
+<script src="weather.js"></script>
+</html>
